@@ -11,6 +11,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 // add json object
 app.use(express.json());
+// add router
 app.use(router);
 
 // Server is listening 
